@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@600;800&display=swap');
+
+/* COSAS GENERADAS DESDE JAVASCRIPT*/
+#cartContainer {
+  font-family: 'Playpen Sans', cursive;
+  background-color: #f0f0f091;
+  padding: 10px;
+  text-align: center;
+  border-radius: 20px;
+}
+
+#cartContainer h2 {
+  color: var(--color-primary-dark);
+  
+}
+
+#cartContainer ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#cartContainer button {
+  color: white;
+  padding: 5px 10px;
+  border: none;
+}
+
+#cartContainer button#comprar {
+  background-color: var(--color-primary);
+}
+
+#cartContainer button#vaciarBoton {
+  background-color: var(--color-primary-dark);
+}
+
+#cartList {
+  list-style: none;
+  padding: 0;
+}
+
+#cartList li {
+  margin-bottom: 10px; 
+}
+
+#addToCartButton, #vaciarBoton,#comprar {
+  display: inline-block;
+  padding: 10px 10px;
+  margin: 5px;
+  text-decoration: none;
+  color: white;
+  background-color: #136ee494;
+  border: 0px solid var(--color-primary);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#datos{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+}
+
+.datosFactura{
+  color: var(--color-primary);
+}
+
+/* PARA QUE 'CARRITO' NO SEL SALGA DEL CUADRO */
+@media only screen and (max-width: 768px) {
+  #cartContainer h2 {
+    font-size: 22px;
+  }
+
+}
+
+
+
+

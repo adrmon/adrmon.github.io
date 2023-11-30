@@ -1,0 +1,185 @@
+:root{
+  --color-primary:rgb(78, 168, 51);
+
+  /* COLOR COMPLEMENTARIO */
+  --color-primary-dark:rgb(153, 48, 173);
+
+  --color-gray:#cccccc;
+  
+  --color-dark-gray:rgb(71, 69, 69);
+
+  --color-darktheme-primary:rgb(240, 217, 174);
+}
+
+
+.botonCambiarTema{
+  display: inline-block;
+  padding: 10px 10px;
+  margin: 5px;
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  border: 0px solid var(--color-primary);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* TEMA OSCURO */
+.temaOscuro .botonCambiarTema{
+  background-color: white;
+  color: black;
+}
+
+.temaOscuro {
+  background-color: rgb(20, 20, 20);
+}
+
+.temaOscuro h1{
+  color: yellow;
+}
+
+.temaOscuro h2{
+  color: white;
+}
+
+.temaOscuro h3{
+  color: white;
+}
+
+.temaOscuro #saludo{
+  color: white;
+}
+
+.temaOscuro .mensaje{
+  color: var(--color-darktheme-primary);
+}
+.temaOscuro a{
+  color: greenyellow;
+}
+
+.temaOscuro a.active{
+  color: var(--color-darktheme-primary);
+  border-left: 5px solid var(--color-darktheme-primary);
+  border-bottom: 5px solid var(--color-darktheme-primary);
+}
+
+.temaOscuro a:hover{
+  color: var(--color-darktheme-primary);
+  border-left: 5px solid var(--color-darktheme-primary);
+  border-bottom: 5px solid var(--color-darktheme-primary);
+}
+
+.temaOscuro a.log:hover{
+  border-left: 0px;
+  border-bottom: 5px solid var(--color-darktheme-primary);
+}
+
+
+.dark.theme li a.active{
+  border-left: 5px solid var(--color-darktheme-primary);
+  border-bottom: 5px solid var(--color-darktheme-primary);
+}
+
+/* MENU */
+.temaOscuro #menu li a.active{
+  color: greenyellow;
+  border-left: 5px solid greenyellow;
+  border-bottom: 5px solid greenyellow;
+}
+
+.temaOscuro #menu li a.active:hover{
+  color: greenyellow;
+  border-left: 5px solid greenyellow;
+  border-bottom: 5px solid greenyellow;
+}
+
+/* PRODUCTOS */
+.temaOscuro .product-box {
+color: white;
+  
+}
+
+.temaOscuro .product-box:hover {
+  text-decoration: none;
+  border-left: 3px solid var(--color-darktheme-primary);
+  border-bottom: 0px;
+  
+}
+
+/* CARRITO */
+.temaOscuro #cartContainer {
+background-color: rgba(128, 128, 128, 0.253);
+color: white;
+}
+
+.temaOscuro #cartContainer h2 {
+  color: yellow;
+  
+}
+
+.temaOscuro #cartContainer button#vaciarBoton {
+  background-color: orange;
+  color: black;
+}
+
+.temaOscuro #addToCartButton{
+  background-color: rgb(51, 179, 255);
+}
+
+/* ASIDE */
+.temaOscuro aside a:hover{
+  border-left: none;
+  border-right: 5px solid var(--color-darktheme-primary);
+  border-bottom: 5px solid var(--color-darktheme-primary);
+}
+
+.temaOscuro aside a.active{
+  border-left: none;
+  border-right: 5px solid var(--color-darktheme-primary);
+  border-bottom: 5px solid var(--color-darktheme-primary);
+}
+
+
+/* FOOTER */
+.temaOscuro footer{
+  background-color: rgba(128, 128, 128, 0.253);
+  color: white;
+}
+
+.temaOscuro footer a:hover{
+  border: none;
+}
+
+/* FORMULARIO */
+.temaOscuro input[type="submit"]:hover {
+  background-color: greenyellow;
+  color: var(--color-primary-dark);
+}
+
+/* FACTURA */
+.temaOscuro .datosFactura{
+  color: var(--color-darktheme-primary);
+}
+/* BUSQUEDA */
+.temaOscuro .search-input {
+background-color: rgb(20, 20, 20);
+  border-bottom: 1px solid var(--color-gray);
+
+}
+
+/* ORDENAR*/
+.temaOscuro .select-order {
+  color: white;
+background-color: rgb(20, 20, 20);
+}
+
+.temaOscuro #cartContainer button#comprar {
+  background-color: greenyellow;
+  color: black;
+}
+
+.temaOscuro #compras{
+  color: white;
+}
+
+

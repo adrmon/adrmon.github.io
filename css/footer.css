@@ -1,0 +1,19 @@
+footer{
+  border-top: 3px solid var(--color-gray);
+  text-align: center;
+  padding: 15px;
+  color: var(--color-gray);
+  
+}
+
+footer img{
+  height: 60px;
+}
+
+footer img:hover{
+  transform: scale(1.05);
+}
+footer a:hover{
+  border: none;
+}
+

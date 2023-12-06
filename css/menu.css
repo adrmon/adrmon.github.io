@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@600;800&display=swap');
+/* NO HACE FALTA PONER EL IMPORT EN TODOS LOS CSS PERO POR SI ACASO */
+
+#menu{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-top: 20px;
+  text-align: center;
+  font-family: 'Playpen Sans', cursive;
+  font-size: 15px;
+}
+
+#menu li a{
+display: block;
+padding: 15px;
+margin-bottom: 10px;
+}
+
+#menu li a.active{
+  border-left: 5px solid var(--color-primary);
+  border-bottom: 5px solid var(--color-primary);
+}
+
+#menu li a.active:hover{
+  color: var(--color-primary);
+}
+
+  @media only screen and (min-width: 768){
+    #menu{
+      text-align: left;
+      margin-left: 20px;
+      font-size: 30px;
+    }
+  }
+
+  @media only screen and (min-width: 992px) {
+    #menu{
+      font-size: 25px;
+    }
+  }

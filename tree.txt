@@ -1,0 +1,171 @@
+C:.
+|   index.html
+|   tree.txt
+|   
++---css
+|       aside.css
+|       colors.css
+|       common.css
+|       desdeJS.css
+|       footer.css
+|       form.css
+|       grid.css
+|       menu.css
+|       products.css
+|       style.css
+|       
++---html
+|   |   ajustes.html
+|   |   bienvenido.html
+|   |   comprarealizada.html
+|   |   iniciarsesion.html
+|   |   registrar.html
+|   |   tuscompras.html
+|   |   
+|   \---productosHTML
+|           boligrafos.html
+|           calculadoras.html
+|           gomasysp.html
+|           informatica.html
+|           lapices.html
+|           libretas.html
+|           manualidades.html
+|           mochilas.html
+|           papel.html
+|           rotuladores.html
+|           tijeras.html
+|           
++---images
+|       carrito.png
+|       drive.png
+|       fav.png
+|       github.png
+|       logo.png
+|       mail.png
+|       settings.png
+|       twitter.png
+|       user.png
+|       
++---js
+|   |   otros.js
+|   |   temaoscuro.js
+|   |   
+|   +---compras
+|   |       compra.js
+|   |       historial.js
+|   |       
+|   +---productosJS
+|   |       boligrafos.js
+|   |       calculadoras.js
+|   |       gomasysp.js
+|   |       informatica.js
+|   |       lapices.js
+|   |       libretas.js
+|   |       manualidades.js
+|   |       mochilas.js
+|   |       papel.js
+|   |       rotuladores.js
+|   |       tijeras.js
+|   |       todos.js
+|   |       
+|   \---sesiones
+|           checkLog.js
+|           checkRegistro.js
+|           iniciarSesion.js
+|           iniciarSesion2.js
+|           iniciarSesion3.js
+|           saludo.js
+|           vaciarCarro.js
+|           
+\---php
+    |   admin.php
+    |   cerrarsesion.php
+    |   con_db.php
+    |   crearpapeleria.php
+    |   iniciarsesion.php
+    |   
+    +---gestionPedidos
+    |       eliminarPedidos.php
+    |       factura.php
+    |       mostrarFactura.php
+    |       mostrarPedidos.php
+    |       
+    +---gestionProductos
+    |       actualizarStock.php
+    |       anadir.php
+    |       comprar.php
+    |       eliminar.php
+    |       factura.php
+    |       modificar.php
+    |       mostrar.php
+    |       mostrarpedidos.php
+    |       proceso_guardar.php
+    |       proceso_modificar.php
+    |       
+    +---gestionUsuarios
+    |       anadirUsuarios.php
+    |       checkLog.php
+    |       eliminarUsuarios.php
+    |       getUser.php
+    |       guardarUsuarios.php
+    |       modificarUsuarios.php
+    |       mostrarUsuarios.php
+    |       proceso_modificarUsuarios.php
+    |       registrar.php
+    |       test.php
+    |       usuarios.php
+    |       
+    +---papeleria
+    |       boliazul.jpg
+    |       bolinegro.jpg
+    |       bolirojo.jpg
+    |       boliverde.jpg
+    |       calculadora.jpg
+    |       calculadorasimple.jpg
+    |       cartulinas.jpg
+    |       discoexterno1tb.jpg
+    |       foliosA4.jpg
+    |       folioscolores.jpg
+    |       gomaborrar.jpg
+    |       gomaborrarrosa.jpg
+    |       lapicescolores.jpg
+    |       lapiz.jpg
+    |       libretaamarilla.jpg
+    |       libretaazul.jpg
+    |       libretamorada.jpg
+    |       libretanaranja.jpg
+    |       libretanegra.jpg
+    |       libretaroja.jpg
+    |       libretarosa.jpg
+    |       libretaverde.jpg
+    |       mochilaazul.jpg
+    |       mochilaroja.jpg
+    |       mochilarosa.jpg
+    |       mochilaverde.jpg
+    |       packbolis.jpg
+    |       packrotuladores.jpg
+    |       packsacapuntascolores.jpg
+    |       plastelina.jpg
+    |       portaminas.jpg
+    |       rotunegronormal.jpg
+    |       rotunegropermanente.jpg
+    |       sacapuntasmetal.jpg
+    |       tijeras.jpg
+    |       usb.jpg
+    |       usb32gb.jpg
+    |       usb8gb.jpg
+    |       
+    \---productos
+            boligrafos.php
+            calculadoras.php
+            gomasysp.php
+            informatica.php
+            lapices.php
+            libretas.php
+            manualidades.php
+            mochilas.php
+            papel.php
+            products.php
+            rotuladores.php
+            tijeras.php
+            
